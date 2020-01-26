@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Student Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+ Student data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). Reverse coding for appropriate items has already been completed. This data.frame is wide formatted - see sats.sci.long for the corresponding long-formatted data.frame.
 }
 \usage{data("sats.s")}
 \format{
-  Student data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). A data frame with 3726 observations on the following 123 variables. Reverse coding for appropriate items has already been completed. This data.frame is wide formatted - see sats.sci.long for the corresponding long-formatted data.frame.
+ A data frame with 3726 observations on the following 123 variables.
   \describe{
 \item{\code{StudentID}}{Unique value for each student}
 \item{\code{CourseID}}{Unique value for each course}

@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Student, Course, and Instructor Combined Data: Long Format
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+ Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging sats.s, sats.c, and sats.i. This data.frame is long formatted - see sats.sci for the corresponding wide-formatted data.frame. The number of rows is 2*3726 because there were only Pre and Post observations. The number of columns is 140 because an Admin variable was added to indicate Pre or Post, and there were 50 Pre and 50 Post columns that were collapsed into one set of 50 variables (189+1-50=140).
 }
 \usage{data("sats.sci.long")}
 \format{
-  Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). A data frame with 7452 observations on the following 140 variables. This data.frame was created from merging sats.s, sats.c, and sats.i. This data.frame is long formatted - see sats.sci for the corresponding wide-formatted data.frame. The number of rows is 2*3726 because there were only Pre and Post observations. The number of columns is 140 because an Admin variable was added to indicate Pre or Post, and there were 50 Pre and 50 Post columns that were collapsed into one set of 50 variables (189+1-50=140).
+ A data frame with 7452 observations on the following 140 variables.
   \describe{
 \item{\code{StudentID}}{Unique value for each student}
 \item{\code{CourseID}}{Unique value for each course}
@@ -100,7 +102,7 @@
 \item{\code{Major}}{Instructor major for highest degree (see details document)}
 \item{\code{English}}{Instructor response to: Did you learn to speak English fluently before you were 12? (1 = Yes)}
 \item{\code{Grad.Work}}{Instructor resposne to: In grad coursework, how many statistics courses did you successfully complete?}
-\item{\code{Admin}}{When survey was administered (Pre/Post)
+\item{\code{Admin}}{When survey was administered (Pre/Post)}
 \item{\code{StartTime}}{Date and time student began  survey (Pre/Post)}
 \item{\code{EndTime}}{Date and time student completed  survey (Pre/Post)}
 \item{\code{Consent}}{Student response to informed consent question. Note that 1 is consent while 0 indicates there was no response at all. A response of 2 indicated a response of no consent (removed). (Pre/Post)}

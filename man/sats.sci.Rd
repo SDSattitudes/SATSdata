@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Student, Course, and Instructor Combined Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging sats.s, sats.c, and sats.i.
 }
 \usage{data("sats.sci")}
 \format{
-  Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). A data frame with 3726 observations on the following 189 variables. This data.frame was created from merging sats.s, sats.c, and sats.i.
+  A data frame with 3726 observations on the following 189 variables.
   \describe{
 \item{\code{StudentID}}{Unique value for each student}
 \item{\code{CourseID}}{Unique value for each course}

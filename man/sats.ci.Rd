@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Course and Instructor Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Combined course and instructor data. This data.frame was created from a merge of sats.c and sats.i.
 }
 \usage{data("sats.ci")}
 \format{
-  Combined course and instructor data. A data frame with 126 observations on the following 69 variables. This data.frame was created from a merge of sats.c and sats.i.
+   A data frame with 126 observations on the following 69 variables.
   \describe{
 \item{\code{CourseID}}{Unique value for each course}
 \item{\code{InstructorID}}{Unique value for each instructor}

@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Course Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Data about the courses students in the sats.s were enrolled in, completed by their instructor.
 }
 \usage{data("sats.c")}
 \format{
-  Data about the courses students in the sats.s were enrolled in, completed by their instructor. A data frame with 141 observations on the following 60 variables.
+  A data frame with 141 observations on the following 60 variables.
   \describe{
 \item{\code{CourseID}}{Unique value for each course}
 \item{\code{InstructorID}}{Unique value for each instructor}

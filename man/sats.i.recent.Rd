@@ -3,13 +3,15 @@
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
+SATS Instructor Data: Most Recent Only
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Data from the instructors of the students in sats.s; only the most recent data from each instructor is included so that each row represents a unique instructor. This data.frame is a subset of the rows in sats.i.
 }
 \usage{data("sats.i.recent")}
 \format{
-  Data from the instructors of the students in sats.s; only the most recent data from each instructor is included so that each row represents a unique instructor. A data frame with 33 observations on the following 11 variables. This data.frame is a subset of the rows in sats.i.
+  A data frame with 33 observations on the following 11 variables.
   \describe{
 \item{\code{InstructorID}}{Unique value for each instructor}
 \item{\code{Academic.Year}}{Academic year data was collected (1, 2, or 3)}
