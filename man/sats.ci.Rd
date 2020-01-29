@@ -19,6 +19,7 @@ Combined course and instructor data. This data.frame was created from a merge of
 \item{\code{Academic.Year}}{Academic year data was collected (1, 2, or 3)}
 \item{\code{StuData}}{Code about type of student data collected }
 \item{\code{CourseSurvey}}{1 = Instructor filled out course survey; 2 = information about course obtained from web site; 3 = no data}
+\item{\code{CourseCode}}{A code to identify the specific course within an institution (essentially all courses with the same name at an institution would receive the same code). This code is the same across semesters, across instructors, and across textbooks (all of which may change while the course itself remains the same).}
 \item{\code{TimesTaught}}{Instructor response to number of times they had previously taught this course (1 = 0 times; 2 = 1 time; 3 = 2 times; 4 = 3 times; 5 = 4 times; 6 = 5 or more)}
 \item{\code{PrimaryText}}{Primary text used}
 \item{\code{InstType}}{Type of institution course was in (1 = High School, 2 = Two-Year, 3 = Four-Year, 4 = Advanced degree granting University)}
