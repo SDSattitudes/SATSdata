@@ -76,7 +76,7 @@ SATS Student Data
 \item{\code{nohscrs}}{Student's number of completed math or statistics credit hours}
 \item{\code{noclcrs}}{Student's number of completed math or statistics courses}
 \item{\code{degree}}{Degree student is seeking (1 = Associate, 2 = Bachelors, 3 = Masters, 4 = Doctorate, 5 = Certification, 6 = Post-Bachelor's Licensure, 7 = Specialist, 8 = Other)}
-\item{\code{sex}}{Student response to "Your sex: " 1 = Male, 2 = Female}
+\item{\code{StudentSex}}{Student response to "Your sex: " 1 = Male, 2 = Female}
 \item{\code{citizen}}{Student response to "Your citizenship: " 1 = US citizen, 2 = Foreign student, 3 = Other}
 \item{\code{Post.StartTime}}{Date and time student began Post survey}
 \item{\code{Post.EndTime}}{Date and time student completed Post survey}
@@ -139,15 +139,15 @@ SATS Student Data
 
   }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
+%}
+%\source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
+%}
+%\references{
 %%  ~~ possibly secondary sources and usages ~~
-}
+%}
 \examples{
 data(sats.s)
 ## maybe str(sats.s) ; plot(sats.s) ...

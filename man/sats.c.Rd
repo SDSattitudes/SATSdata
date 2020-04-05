@@ -77,15 +77,15 @@ Data about the courses students in the sats.s were enrolled in, completed by the
 
   }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
+%}
+%\source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
+%}
+%\references{
 %%  ~~ possibly secondary sources and usages ~~
-}
+%}
 \examples{
 data(sats.c)
 ## maybe str(sats.c) ; plot(sats.c) ...

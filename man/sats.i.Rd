@@ -19,22 +19,22 @@ Data from the instructors of the students in sats.s.
 \item{\code{InstructorEndSurvey}}{Date and time instructor completed survey}
 \item{\code{InstructorConsent}}{Instructor consent (1 = Yes)}
 \item{\code{Rank}}{Instructor academic rank (1 = Grad student, 2 = Adjunct/Staff (Part Time), 3 = Adjunct/Staff (Full Time), 4 = Asst. Prof,  5 = Assoc. Prof, 6=Full Prof)}
-\item{\code{InstructorGender}}{Instructor Gender (1 = Female, 2 = Male)}
+\item{\code{InstructorSex}}{Instructor Sex (1 = Female, 2 = Male)}
 \item{\code{Degree}}{Instructor highest degree (1 = Undergraduate, 2 = Masters, 3 = PhD, 4 = Other)}
 \item{\code{Major}}{Instructor major for highest degree (see details document)}
 \item{\code{English}}{Instructor response to: Did you learn to speak English fluently before you were 12? (1 = Yes)}
 \item{\code{Grad.Work}}{Instructor resposne to: In grad coursework, how many statistics courses did you successfully complete?}
   }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
+%}
+%\source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
+%}
+%\references{
 %%  ~~ possibly secondary sources and usages ~~
-}
+%}
 \examples{
 data(sats.i)
 ## maybe str(sats.i) ; plot(sats.i) ...

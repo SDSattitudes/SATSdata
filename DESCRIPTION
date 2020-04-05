@@ -1,7 +1,7 @@
 Package: SATSdata
 Type: Package
 Title: Survey of Attitudes Toward Statistics (SATS) Data Warehouse
-Version: 0.1.1
+Version: 0.1.2
 Author: TBD
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: This package contains data from the Survey of Attitudes 

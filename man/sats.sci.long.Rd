@@ -26,7 +26,7 @@ SATS Student, Course, and Instructor Combined Data: Long Format
 \item{\code{nohscrs}}{Student's number of completed math or statistics credit hours}
 \item{\code{noclcrs}}{Student's number of completed math or statistics courses}
 \item{\code{degree}}{Degree student is seeking (1 = Associate, 2 = Bachelors, 3 = Masters, 4 = Doctorate, 5 = Certification, 6 = Post-Bachelor's Licensure, 7 = Specialist, 8 = Other)}
-\item{\code{sex}}{Student response to "Your sex: " 1 = Male, 2 = Female}
+\item{\code{StudentSex}}{Student response to "Your sex: " 1 = Male, 2 = Female}
 \item{\code{citizen}}{Student response to "Your citizenship: " 1 = US citizen, 2 = Foreign student, 3 = Other}
 \item{\code{pvprogrm}}{Student's preception of future use of statistics in their program (1 = Not at all, 7 = Great deal)}
 \item{\code{ptakemor}}{Student's self-reported likelihood of taking another statistics course (1 = Not at all likely, 7 = Very likely)}
@@ -98,7 +98,7 @@ SATS Student, Course, and Instructor Combined Data: Long Format
 \item{\code{InstructorEndSurvey}}{Date and time instructor completed survey}
 \item{\code{InstructorConsent}}{Instructor consent (1 = Yes)}
 \item{\code{Rank}}{Instructor academic rank (1 = Grad student, 2 = Adjunct/Staff (Part Time), 3 = Adjunct/Staff (Full Time), 4 = Asst. Prof,  5 = Assoc. Prof, 6=Full Prof)}
-\item{\code{InstructorGender}}{Instructor Gender (1 = Female, 2 = Male)}
+\item{\code{InstructorSex}}{Instructor Sex (1 = Female, 2 = Male)}
 \item{\code{Degree}}{Instructor highest degree (1 = Undergraduate, 2 = Masters, 3 = PhD, 4 = Other)}
 \item{\code{Major}}{Instructor major for highest degree (see details document)}
 \item{\code{English}}{Instructor response to: Did you learn to speak English fluently before you were 12? (1 = Yes)}
@@ -157,15 +157,15 @@ SATS Student, Course, and Instructor Combined Data: Long Format
 
   }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
+%}
+%\source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
+%}
+%\references{
 %%  ~~ possibly secondary sources and usages ~~
-}
+%}
 \examples{
 data(sats.sci.long)
 ## maybe str(sats.sci.long) ; plot(sats.sci.long) ...
