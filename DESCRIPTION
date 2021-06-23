@@ -1,13 +1,22 @@
 Package: SATSdata
 Type: Package
 Title: Survey of Attitudes Toward Statistics (SATS) Data Warehouse
-Version: 0.1.2
-Author: TBD
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: This package contains data from the Survey of Attitudes 
-    Toward Statistics (SATS) data warehouse. Data were collected in
-    2007 through 2010 from students and instructors. 
-License: What license is it under?
-Depends: R (>= 3.5.0)
+Version: 0.1.5
+Authors@R: c(
+    person(given = "Candace", family = "Schau", role = c("aut")),
+    person(given = "Marjorie E.", family = "Bond",
+    email = "mebond@monmouthcollege.edu", role = c("aut")),
+    person("Douglas", "Whitaker", email = "douglas.whitaker@msvu.ca", 
+    role = c("cre", "aut")))
+URL: https://github.com/douglaswhitaker/SATSdata
+BugReports: https://github.com/douglaswhitaker/SATSdata/issues
+Description: Data collected from statistics students and their instructors as 
+    part of the SATS Data Warehouse project. Data were collected from 2007 to 
+    2010. Students answered the pre- and post- SATS, instructors supplied 
+    student grades and answered an annual survey about themselves. For each 
+    course section, the instructor answered a course survey describing their 
+    enacted classroom behaviors as well as course / section characteristics.  
+License: CC BY-SA 4.0
+Depends: R (>= 4.0.0)
 Encoding: UTF-8
 LazyData: true
