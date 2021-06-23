@@ -19,3 +19,14 @@ The package contains the following objects:
 * **sats.sci.long**: combined student, course, and instructor data (long format)
 
 See the included documentation (e.g., run `?sats.s` in R) for detailed information about each variable.
+
+## Installation
+
+This package is not yet on CRAN; we aim to submit it to CRAN sometime in 2022. For now, install the latest version of the package by running this code:
+
+```{r}
+library(devtools)
+devtools::install_github("douglaswhitaker/SATSdata")
+```
+
+If you do not have the devtools package, install it with `install.packages("devtools")` in the usual way.
