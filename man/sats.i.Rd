@@ -1,5 +1,5 @@
-\name{sats.i}
-\alias{sats.i}
+\name{sats_i}
+\alias{sats_i}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -7,9 +7,9 @@ SATS Instructor Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-Data from the instructors of the students in sats.s.
+Data from the instructors of the students in \link{sats_s}. A subset of the rows in this data.frame corresponding to the most recent responses for each instructor is given in \link{sats_i_recent}.
 }
-\usage{data("sats.i")}
+\usage{data("sats_i")}
 \format{
   A data frame with 46 observations on the following 11 variables.
   \describe{
@@ -36,7 +36,7 @@ Data from the instructors of the students in sats.s.
 %%  ~~ possibly secondary sources and usages ~~
 %}
 \examples{
-data(sats.i)
-## maybe str(sats.i) ; plot(sats.i) ...
+data(sats_i)
+## maybe str(sats_i) ; plot(sats_i) ...
 }
 \keyword{datasets}

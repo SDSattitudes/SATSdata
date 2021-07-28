@@ -1,5 +1,5 @@
-\name{sats.i.recent}
-\alias{sats.i.recent}
+\name{sats_i_recent}
+\alias{sats_i_recent}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -7,7 +7,7 @@ SATS Instructor Data: Most Recent Only
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-Data from the instructors of the students in sats.s; only the most recent data from each instructor is included so that each row represents a unique instructor. This data.frame is a subset of the rows in sats.i.
+Data from the instructors of the students in \link{sats_s}; only the most recent data from each instructor is included so that each row represents a unique instructor. This data.frame is a subset of the rows in \link{sats_i}.
 }
 \usage{data("sats.i.recent")}
 \format{

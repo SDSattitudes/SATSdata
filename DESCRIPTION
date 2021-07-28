@@ -1,14 +1,14 @@
 Package: SATSdata
 Type: Package
 Title: Survey of Attitudes Toward Statistics (SATS) Data Warehouse
-Version: 0.1.6
-Date: 2021-06-23
+Version: 1.0.0
+Date: 2021-07-28
 Authors@R: c(
     person(given = "Candace", family = "Schau", role = c("aut")),
     person(given = "Marjorie E.", family = "Bond",
     email = "mebond@monmouthcollege.edu", role = c("aut")),
     person("Douglas", "Whitaker", email = "douglas.whitaker@msvu.ca", 
-    role = c("cre", "aut")))
+    role = c("cre", "aut"), comment = c(ORCID = "0000-0002-6895-7437")))
 URL: https://github.com/douglaswhitaker/SATSdata
 BugReports: https://github.com/douglaswhitaker/SATSdata/issues
 Description: Data collected from statistics students and their instructors as 

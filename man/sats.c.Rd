@@ -1,5 +1,5 @@
-\name{sats.c}
-\alias{sats.c}
+\name{sats_c}
+\alias{sats_c}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -7,9 +7,9 @@ SATS Course Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-Data about the courses students in the sats.s were enrolled in, completed by their instructor.
+Data about the courses students in the \link{sats_s} were enrolled in, completed by their instructor.
 }
-\usage{data("sats.c")}
+\usage{data("sats_c")}
 \format{
   A data frame with 141 observations on the following 60 variables.
   \describe{
@@ -87,7 +87,7 @@ Data about the courses students in the sats.s were enrolled in, completed by the
 %%  ~~ possibly secondary sources and usages ~~
 %}
 \examples{
-data(sats.c)
-## maybe str(sats.c) ; plot(sats.c) ...
+data(sats_c)
+## maybe str(sats_c) ; plot(sats_c) ...
 }
 \keyword{datasets}

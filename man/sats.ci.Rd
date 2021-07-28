@@ -1,5 +1,5 @@
-\name{sats.ci}
-\alias{sats.ci}
+\name{sats_ci}
+\alias{sats_ci}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -7,21 +7,21 @@ SATS Course and Instructor Data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-Combined course and instructor data. This data.frame was created from a merge of sats.c and sats.i.
+Combined course and instructor data. This data.frame was created from a merge of \link{sats_c} and \link{sats_i}.
 }
-\usage{data("sats.ci")}
+\usage{data("sats_ci")}
 \format{
-   A data frame with 126 observations on the following 69 variables.
+   A data frame with 126 observations on the following 70 variables.
   \describe{
 \item{\code{CourseID}}{Unique value for each course}
 \item{\code{InstructorID}}{Unique value for each instructor}
 \item{\code{Semester}}{Semester in which data were collected}
 \item{\code{Academic.Year}}{Academic year data was collected (1, 2, or 3)}
-\item{\code{StuData}}{Code about type of student data collected }
+\item{\code{StuData}}{Code about type of student data collected}
 \item{\code{CourseSurvey}}{1 = Instructor filled out course survey; 2 = information about course obtained from web site; 3 = no data}
 \item{\code{CourseCode}}{A code to identify the specific course within an institution (essentially all courses with the same name at an institution would receive the same code). This code is the same across semesters, across instructors, and across textbooks (all of which may change while the course itself remains the same).}
 \item{\code{TimesTaught}}{Instructor response to number of times they had previously taught this course (1 = 0 times; 2 = 1 time; 3 = 2 times; 4 = 3 times; 5 = 4 times; 6 = 5 or more)}
-\item{\code{PrimaryText}}{Primary text used}
+\item{\code{PrimaryText}}{Primary text used. This is a free text response and no data cleaning has been performed.}
 \item{\code{InstType}}{Type of institution course was in (1 = High School, 2 = Two-Year, 3 = Four-Year, 4 = Advanced degree granting University)}
 \item{\code{Level}}{Level of course (0 = Other; 2 = Undergraduate Introductory Statistics; 3 = Undergraduate Second Statistics Course; 4 = Graduate Introductory Statistics; 5 = Graduate Second Statistics Course; 6 = Other)}
 \item{\code{LevelOther}}{Text response if Level = 0}

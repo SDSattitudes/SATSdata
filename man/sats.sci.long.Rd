@@ -1,5 +1,5 @@
-\name{sats.sci.long}
-\alias{sats.sci.long}
+\name{sats_sci_long}
+\alias{sats_sci_long}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -7,9 +7,10 @@ SATS Student, Course, and Instructor Combined Data: Long Format
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
- Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging sats.s, sats.c, and sats.i. This data.frame is long formatted - see sats.sci for the corresponding wide-formatted data.frame. The number of rows is 2*3726 because there were only Pre and Post observations. The number of columns is 140 because an Admin variable was added to indicate Pre or Post, and there were 50 Pre and 50 Post columns that were collapsed into one set of 50 variables (189+1-50=140).
+%% 141 columns! Fix this!
+ Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging \link{sats_s}, \link{sats_c}, and \link{sats_i}. This data.frame is long formatted - see \link{sats_sci} for the corresponding wide-formatted data.frame. The number of rows is 2*3730 because there were only Pre and Post observations. The number of columns is 140 because an Admin variable was added to indicate Pre or Post, and there were 50 Pre and 50 Post columns that were collapsed into one set of 50 variables (189+1-50=140).
 }
-\usage{data("sats.sci.long")}
+\usage{data("sats_sci_long")}
 \format{
  A data frame with 7452 observations on the following 140 variables.
   \describe{
