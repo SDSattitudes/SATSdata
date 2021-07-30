@@ -7,7 +7,6 @@ SATS Student, Course, and Instructor Combined Data: Long Format
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
-%% 141 columns! Fix this!
  Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging \link{sats_s}, \link{sats_c}, and \link{sats_i}. This data.frame is long formatted - see \link{sats_sci} for the corresponding wide-formatted data.frame. The number of rows is 2*3730=7460 because there were only Pre and Post observations. The number of columns is 141 because an Admin variable was added to indicate Pre or Post, and there were 50 Pre and 50 Post columns that were collapsed into one set of 50 variables (190+1-50=141).
 }
 \usage{data("sats_sci_long")}

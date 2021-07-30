@@ -1,5 +1,5 @@
-\name{sats.sci}
-\alias{sats.sci}
+\name{sats_sci}
+\alias{sats_sci}
 \docType{data}
 \title{
 %%   ~~ data name/kind ... ~~
@@ -9,7 +9,7 @@ SATS Student, Course, and Instructor Combined Data
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 Combined student, course, and instructor data for the Survey of Attitudes Toward Statistics (SATS-36; Schau, 2003). This data.frame was created from merging sats.s, sats.c, and sats.i.
 }
-\usage{data("sats.sci")}
+\usage{data("sats_sci")}
 \format{
   A data frame with 3726 observations on the following 190 variables.
   \describe{
